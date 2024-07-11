@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf9f8;
+}
+
+
+header {
+    background-color: #ff5555;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+.image-container {
+    text-align: center;
+}
+
+
+.image-container img {
+    width: 200px;
+    height: auto;
+}
+
+
+.hero{
+    width: 100%;
+    
+    background: #faf9f8;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: maroon;
+}
+
+nav ul li a:hover{
+  color: #ccbcbe;
+}
+
+.btn{
+    background: maroon;
+    border-radius: 10px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #faf9f8;
+    display: inline-block;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid maroon;
+    cursor: pointer;
+}
+
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid brown;
+}
+
+
+h2 {
+    color: maroon;
+}
+
+
+.promise {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.promise img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.promise p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(141, 23, 23);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 1.2em;
+}
+
+
+footer{
+    text-align: center;
+    background: #faf9f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p{
+    color: #717275;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer .social1 a{
+    color: #717275;
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3a;
+}
+
+footer .social1 a:hover{
+    color: maroon;
+}
+
+footer .end{
+    margin-top: 20px;
+    font-size: 14px;
+    color: maroon;
+}
+
+
+
+

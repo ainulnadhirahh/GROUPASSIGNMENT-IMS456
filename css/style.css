@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    
+    background: #faf9f8;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+nav{
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 70px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: maroon;
+}
+
+nav ul li a:hover{
+  color: #ccbcbe;
+}
+
+.btn{
+    background: maroon;
+    border-radius: 10px;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #faf9f8;
+    display: inline-block;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid maroon;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, sans-serif;
+    margin: 0;
+}
+
+.myslides{
+    display: none;
+}
+
+img{
+    vertical-align: super;
+}
+
+/* Slideshow container */
+.slideshow-container{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #958673;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #e7ded5;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+/* Events */
+section{
+    width: 80%;
+    margin: 0px auto;
+    background: #faf9f8;
+    padding: 20px; /* add padding for better spacing */
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #faf9f8;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: maroon;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-text p{
+    color: #606163;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 15px;
+    margin-bottom: 30px; /* Adjust this value to set the desired space between paragraph */
+    text-align: center;
+}
+
+.about-text .button{
+    background-color: maroon;
+    color: #faf9f8;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 13px 30px;
+    border-radius: 10px;
+    transition: .4s;
+    margin-left: 200px;
+}
+
+.about-text .button:hover{
+    background-color: transparent;
+    border: 2px solid maroon;
+    cursor: pointer; 
+}
+
+
+.highlight0
+{
+    background-color: #faf9f8;
+    width: 100%;
+    height: 125px;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.highlight0 h1{
+  color: maroon;
+  font-size: 27px;
+}
+
+
+.box1
+{
+    width: 25%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.box1 img{
+  border-radius: 20px;
+}
+
+.box2
+{
+    width: 25%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.box2 img{
+  border-radius: 20px;
+}
+
+.box3
+{
+    width: 25%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.box3 img{
+  border-radius: 20px;
+}
+
+.box4
+{
+    width: 25%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.box4 img{
+  border-radius: 20px;
+}
+
+
+.highlight1
+{
+    background-color: #faf9f8;
+    width: 100%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    
+}
+
+.highlight1 h1{
+  color: maroon;
+  font-size: 27px;
+}
+
+
+.m1
+{
+    background-color: #faf9f8;
+    width: 5%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.m2
+{
+    background-color: #faf9f8;
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.m2 img{
+  border-radius: 20px;
+}
+
+.m3
+{
+    background-color: #faf9f8;
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.m3 img{
+  border-radius: 20px;
+}
+
+.m4
+{
+    
+    background-color: #faf9f8;
+    width: 30%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.m4 img{
+  border-radius: 20px;
+}
+
+.m2 h5 {
+    color: #333335;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 20px; /* Adjust this value to set the desired space between paragraph */
+    text-align: center;
+}
+
+.m3 h5 {
+  color: #333335;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 20px; /* Adjust this value to set the desired space between paragraph */
+  text-align: center;
+}
+
+.m4 h5 {
+  color: #333335;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 20px;
+  margin-bottom: 20px; /* Adjust this value to set the desired space between paragraph */
+  text-align: center;
+}
+
+.m2 h6 {
+  color: #606163;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 5px; /* Adjust this value to set the desired space between paragraph */
+  text-align: center;
+}
+
+.m2 h6 span{
+  color: maroon;
+}
+
+.m3 h6 {
+  color: #606163;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 5px; /* Adjust this value to set the desired space between paragraph */
+  text-align: center;
+}
+
+.m3 h6 span{
+  color: maroon;
+}
+
+.m4 h6 {
+  color: #606163;
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 15px;
+  margin-bottom: 5px; /* Adjust this value to set the desired space between paragraph */
+  text-align: center;
+}
+
+.m4 h6 span{
+  color: maroon;
+}
+
+
+footer{
+    text-align: center;
+    background: #faf9f8;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p{
+    color: #717275;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer .social1 a{
+    color: #717275;
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3a;
+}
+
+footer .social1 a:hover{
+    color: maroon;
+}
+
+footer .end{
+    margin-top: 20px;
+    font-size: 14px;
+    color: maroon;
+}
+
